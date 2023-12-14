@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": ["src/UI.tsx", "./typing.d.ts"],
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "declaration": true,
+        "esModuleInterop": true,
+        "emitDeclarationOnly": true,
+        "noEmit": false,
+        "outDir": "dist",
+        "outFile": "dist/index.d.ts"
+    }
+}

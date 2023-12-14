@@ -1,0 +1,10 @@
+{
+    "extends": "@repo/ts-config/comp.tsconfig.json",
+    "include": ["src", "./typing.d.ts"],
+    "compilerOptions": {
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "noEmit": false,
+        "outDir": "dist"
+    }
+}

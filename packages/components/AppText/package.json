@@ -1,0 +1,23 @@
+{
+    "name": "@app/app-text",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.es.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "build:lib": "cross-env BUILD_MODE=lib && run-p build-only",
+        "build:kit": "cross-env BUILD_MODE=kit && run-p build-only kit-dts",
+        "build-only": "cross-env NODE_ENV=production vite build",
+        "lib-dts": "tsc -p tsconfig.lib.json",
+        "kit-dts": "tsc -p tsconfig.kit.json"
+    },
+    "private": true,
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "react": "^18.2.0"
+    }
+}

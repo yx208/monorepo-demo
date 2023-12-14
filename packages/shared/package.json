@@ -1,0 +1,6 @@
+{
+    "name": "@repo/shared",
+    "publishConfig": {
+        "access": "public"
+    }
+}
