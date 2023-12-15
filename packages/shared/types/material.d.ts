@@ -1,4 +1,4 @@
-import type React from "react";
+import type React from 'react';
 
 export type SettingsComponent<P> = React.FC<SettingsComponentProps<P>>;
 

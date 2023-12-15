@@ -2,5 +2,8 @@
   "compilerOptions": {
       "jsx": "react"
   },
-  "extends": "@repo/typescript-config/base.json"
+    "exclude": [
+        ".eslintrc.js"
+    ],
+    "extends": "@repo/typescript-config/base.json"
 }
